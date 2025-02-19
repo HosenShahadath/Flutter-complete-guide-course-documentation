@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'section1/container/container.dart';
+import 'package:flutter_framework_practice/section1/row/row.dart';
+import 'section1/row/row.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: ContainerApp(),
+      home: RowApp(),
     );
   }
 }
