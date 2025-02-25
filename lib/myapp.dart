@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section3/local%20json.dart';
+import 'package:flutter_framework_practice/section3/Online%20Json.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LocalJson(),
+      home: OnlineJson(),
     );
   }
 }
