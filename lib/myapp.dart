@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section3/cached%20image%202.dart';
+import 'package:flutter_framework_practice/section3/local%20fonts.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: CachedImage2(),
+      home: LocalFonts1(),
     );
   }
 }
