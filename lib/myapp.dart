@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_framework_practice/section3/local%20fonts.dart';
+import 'package:flutter_framework_practice/section3/local%20json.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LocalFonts1(),
+      home: LocalJson(),
     );
   }
 }

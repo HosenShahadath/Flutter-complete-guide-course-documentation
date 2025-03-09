@@ -57,6 +57,7 @@ dev_dependencies:
 flutter:
   assets:
     - assets/learn_flutter.jpg
+    - assets/data/info.json
   fonts:
     - family: Roboto
       fonts:
