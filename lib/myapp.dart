@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%204/snackbar/snackbar%201.dart';
-
+import 'package:flutter_framework_practice/section%204/bottom%20navigation%20bar/bottom%20nav.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -9,7 +8,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Snackbar1(),
+      debugShowCheckedModeBanner: false,
+      home: BottomNav(),
     );
   }
 }
