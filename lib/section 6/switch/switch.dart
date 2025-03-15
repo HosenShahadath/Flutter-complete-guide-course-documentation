@@ -17,6 +17,8 @@ class _SwitchAppState extends State<SwitchApp> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Switch(value: isSwitched,
+              activeTrackColor: Colors.lightGreenAccent,
+              activeColor: Colors.green,
               onChanged: (value){
               setState(() {
                 isSwitched = value;
