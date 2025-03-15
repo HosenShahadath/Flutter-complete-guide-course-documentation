@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%206/switch/switch%202.dart';
+import 'package:flutter_framework_practice/section%206/datetime/datetime.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SwitchApp2(),
+      home: DateTimeApp(),
     );
   }
 }
