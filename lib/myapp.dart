@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%206/form%20validation/form%20validation%202.dart';
+import 'package:flutter_framework_practice/section%207/move%20to%20another%20screen/movo%20to%20screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FormValidationApp2(),
+      home: MainScreen(),
     );
   }
 }
