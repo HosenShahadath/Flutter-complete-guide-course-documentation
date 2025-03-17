@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 
+class Product{
+  final String name;
+  final double price;
+
+  Product({required this.name, required this.price});
+}
+
 class MyApp2 extends StatelessWidget {
   const MyApp2({super.key});
 
@@ -18,7 +25,9 @@ class MyApp2 extends StatelessWidget {
 }
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  HomeScreen({super.key});
+  final Product product = Product(name: 'Laptop', price: 1000);
+
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +37,7 @@ class HomeScreen extends StatelessWidget {
         child: ElevatedButton(
           onPressed: () {
             Navigator.pushNamed(context, '/second',
-            arguments: 'Hello from  the first screen'
+            arguments: product,
             );
           },
           child: const Text('Go to second screen'),
