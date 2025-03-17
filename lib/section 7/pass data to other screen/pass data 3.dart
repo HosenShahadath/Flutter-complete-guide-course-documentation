@@ -1,19 +1,5 @@
 import 'package:flutter/material.dart';
 
-class MyApp2 extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Named Route Navigation',
-      initialRoute: '/',
-      routes: {
-        '/': (context) => HomeScreen(),
-        '/product': (context) => ProductScreen(),
-      },
-    );
-  }
-}
-
 class Product {
   final String name;
   final double price;
