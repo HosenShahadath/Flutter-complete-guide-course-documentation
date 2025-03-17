@@ -12,9 +12,12 @@ class HomeScreenApp extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            TextField(
-              controller: _controller,
-              decoration: InputDecoration(hintText: 'Enter your Name'),
+            Padding(
+              padding: const EdgeInsets.all(24),
+              child: TextField(
+                controller: _controller,
+                decoration: InputDecoration(hintText: 'Enter your Name'),
+              ),
             ),
             ElevatedButton(
               onPressed: () {
