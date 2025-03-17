@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%207/move%20to%20another%20screen/move%20to%20screen%202.dart';
+import 'package:flutter_framework_practice/section%207/pass%20data%20to%20other%20screen/pass%20%20data%201.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: HomeScreenApp(),
     );
   }
 }
