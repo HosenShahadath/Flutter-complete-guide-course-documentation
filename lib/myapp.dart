@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%207/drawer%20navigation/drawer%20navigation.dart';
+import 'package:flutter_framework_practice/section%207/TabBar/tabbar.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage5(),
+      home: TabBarApp(),
     );
   }
 }
