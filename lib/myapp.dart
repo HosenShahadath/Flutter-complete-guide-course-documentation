@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section1/stack/stack%203.dart';
+import 'package:flutter_framework_practice/section1/counter%20app/counter_app_3.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Stack3(),
+      home: CounterApp3(),
     );
   }
 }
