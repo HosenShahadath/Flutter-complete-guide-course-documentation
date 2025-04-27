@@ -7,6 +7,7 @@ class TodoListApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(
+        reverse: false,
         children: [
           ListTile(
             leading: Icon(Icons.sports_gymnastics),
@@ -29,7 +30,7 @@ class TodoListApp extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.sports_gymnastics),
             title: Text('Go to Gym'),
-            subtitle: Text('Go to gym at 6.00 AM'),
+            subtitle: Text('Go to gym at 10.00 AM'),
             trailing: Icon(Icons.timelapse),
           ),
         ],

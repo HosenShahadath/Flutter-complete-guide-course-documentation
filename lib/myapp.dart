@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section2/Listview/todo_list_app.dart';
+import 'package:flutter_framework_practice/section2/Listview/Image_gallary_app.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TodoListApp(),
+      home: ImageGallaryApp(),
     );
   }
 }
