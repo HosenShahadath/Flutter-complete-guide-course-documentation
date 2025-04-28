@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section2/Gridview%20Builder/product_app.dart';
+import 'package:flutter_framework_practice/section3/Local%20Image/profile_app_image.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProductApp(),
+      home: ProfileAppImage(),
     );
   }
 }
