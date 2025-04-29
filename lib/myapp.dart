@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%204/bottom%20navigation%20bar/bottom_nav_app.dart';
-import 'package:flutter_framework_practice/section%204/bottom%20navigation%20bar/ecomerce_app_nav.dart';
-
+import 'package:flutter_framework_practice/section%204/alert%20dialog/alert_dialog_app.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -10,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: EcomerceAppNav(),
+      home: AlertDialogApp(),
     );
   }
 }
