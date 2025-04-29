@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section3/Cached%20Image/cached_image_app.dart';
-import 'package:flutter_framework_practice/section3/Google%20Fonts/google_font_app.dart';
-import 'package:flutter_framework_practice/section3/Internet%20Image/profile_app_internet.dart';
-import 'package:flutter_framework_practice/section3/Local%20Json/local_json_app.dart';
+import 'package:flutter_framework_practice/section3/Quote%20App/quote_ui_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -11,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LocalJsonApp(),
+      home: QuoteUiScreen(),
     );
   }
 }
