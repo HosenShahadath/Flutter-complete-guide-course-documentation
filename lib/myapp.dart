@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%205/dropdown%20button/dropdown_button_screen.dart';
+import 'package:flutter_framework_practice/section%206/form/form_screen.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DropdownButtonScreen(),
+      home: FormScreen(),
     );
   }
 }
