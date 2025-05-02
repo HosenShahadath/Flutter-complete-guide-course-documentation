@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%206/checkbox/check_box_screen.dart';
+import 'package:flutter_framework_practice/section%206/datetime/bitrhday_picker.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CheckBoxScreen(),
+      home: BitrhdayPicker(),
     );
   }
 }
