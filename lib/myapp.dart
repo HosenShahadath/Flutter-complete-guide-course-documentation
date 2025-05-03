@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%206/form%20validation/form_validator_screen.dart';
+import 'package:flutter_framework_practice/section%207/move%20to%20another%20screen/move_to_another_screen.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FormValidatorScreen(),
+      home: MoveToAnotherScreen(),
     );
   }
 }
