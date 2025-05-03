@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_framework_practice/section%207/pass%20data%20to%20other%20screen/navigation_app.dart';
+import 'package:flutter_framework_practice/section%207/return%20data%20from%20screen/return_data_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -8,11 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
-      routes: {
-        '/': (context) => HomeScreen10(),
-        '/second' : (context) => SecoundScreen2(),
-      },
+      home: ReturnDataScreen(),
     );
   }
 }
