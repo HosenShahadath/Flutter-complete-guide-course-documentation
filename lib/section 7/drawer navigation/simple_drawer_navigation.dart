@@ -14,8 +14,8 @@ class SimpleDrawerNavigation extends StatelessWidget {
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              child: const Text('MyApp'),
               decoration: BoxDecoration(color: Colors.blueAccent),
+              child: const Text('MyApp'),
             ),
             ListTile(
               title: Text('Home'),
@@ -44,6 +44,8 @@ class SimpleDrawerNavigation extends StatelessWidget {
 
 // Contact Page
 class ContactPage extends StatelessWidget {
+  const ContactPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,6 +57,8 @@ class ContactPage extends StatelessWidget {
 
 // About Page
 class AboutPage extends StatelessWidget {
+  const AboutPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
